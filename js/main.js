@@ -1,1 +1,4 @@
-ECHO is on.
+(()=>{
+  console.log('Works');
+//Self invoking Function
+})();

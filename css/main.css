@@ -1,1 +1,38 @@
-ECHO is on.
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+main {
+
+    min-width: 400px;
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 55px 50px -20px #b6b6b6;
+}
+ ul{
+   padding: 0;
+   list-style: none;
+
+ }
+
+.mainNav{
+  font-size: 20px;
+  justify-content:flex-end;
+  display: flex;
+}
+
+.mainNav li{
+  margin-top: 20px;
+  border-width: medium;
+  background-color: lightblue;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.hidden{
+  display: none;
+
+}
