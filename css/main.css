@@ -3,69 +3,68 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-
 }
+
 a {
   text-decoration: none;
-
 }
+
 /*this a:visited removes the color styling for the hyperlink in the nav*/
-a:visited{
+
+a:visited {
   color:black;
 }
-main {
 
+main {
     min-width: 400px;
     background: #fff;
     padding: 40px 20px;
     border-radius: 5px;
     box-shadow: 5px 55px 50px -20px #b6b6b6;
 }
- ul{
+
+ ul {
    padding: 0;
    list-style: none;
-
  }
 
 
 
- .mainContent{
+ .mainContent {
    width:1000px;
  }
 
-.mainNav{
+.mainNav {
   background-color: black;
   font-size: 25px;
   justify-content:flex-end;
   display: flex;
 }
 
-.mainNav li{
+.mainNav li {
   margin-top: 20px;
   border-width: medium;
   padding:10px;
 
 }
-.notselected{
+
+.notselected {
   background-color: black;
   color:white;
 }
-.hidden{
+
+.hidden {
   display: none;
 
 }
 
-.allImages{
+.allImages {
   display: flex;
   flex-direction: column;
-
 }
+
 .toggledThing{
   filter:grayscale(100%);
-}
-
-#colorChange{
-  img:hover {filter:opacity(100%);}
 }
 
 .icons1{
@@ -73,13 +72,10 @@ main {
   flex-direction:row;
   justify-content: space-evenly;
   margin-top: 100px;
-
-
 }
 
 .icons1 img{
   width:30%;
-
 }
 
 .icons2{
@@ -87,12 +83,10 @@ main {
   flex-direction:row;
   margin-top: 100px;
   justify-content: space-evenly;
-
 }
+
 .icons2 img{
-
   width:30%;
-
 }
 
 img:hover{
@@ -102,6 +96,7 @@ img:hover{
 .selected {
   background-color: #ffffff;
 }
+
 #pageTitle{
   text-align: center;
   font-size: 45px;
