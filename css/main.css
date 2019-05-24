@@ -1,1 +1,117 @@
-ECHO is on.
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+a {
+  text-decoration: none;
+
+}
+/*this a:visited removes the color styling for the hyperlink in the nav*/
+a:visited{
+  color:black;
+}
+main {
+
+    min-width: 400px;
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 55px 50px -20px #b6b6b6;
+}
+ ul{
+   padding: 0;
+   list-style: none;
+
+ }
+
+
+
+ .mainContent{
+   width:1000px;
+ }
+
+.mainNav{
+  background-color: black;
+  font-size: 25px;
+  justify-content:flex-end;
+  display: flex;
+}
+
+.mainNav li{
+  margin-top: 20px;
+  border-width: medium;
+  padding:10px;
+
+}
+.notselected{
+  background-color: black;
+  color:white;
+}
+.hidden{
+  display: none;
+
+}
+
+.allImages{
+  display: flex;
+  flex-direction: column;
+
+}
+.toggledThing{
+  filter:grayscale(100%);
+}
+
+#colorChange{
+  img:hover {filter:opacity(100%);}
+}
+
+.icons1{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+
+
+}
+
+.icons1 img{
+  width:30%;
+
+}
+
+.icons2{
+  display: flex;
+  flex-direction:row;
+  margin-top: 100px;
+  justify-content: space-evenly;
+
+}
+.icons2 img{
+  
+  width:30%;
+
+}
+
+img:hover{
+  filter:invert(90%);
+}
+
+.selected {
+  background-color: #ffffff;
+}
+#pageTitle{
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+  background-color: lightblue;
+}
