@@ -90,13 +90,13 @@ main {
 
 }
 .icons2 img{
-  
+
   width:30%;
 
 }
 
 img:hover{
-  filter:invert(90%);
+  transform: scale(1.15);
 }
 
 .selected {
